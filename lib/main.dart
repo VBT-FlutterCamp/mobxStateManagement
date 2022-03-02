@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobx_state_management/feature/storyListModel/view/story_view.dart';
 
 import 'feature/userMobx/view/user_view.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.teal,
       ),
-      home: const UserView(),
+      home: const StoryView(),
     );
   }
 }
